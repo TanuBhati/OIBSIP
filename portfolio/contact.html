@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <style>
+        .container{
+            background-color: rgb(103, 208, 166);
+            color: black;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 8%;
+            border: solid whitesmoke 2px;
+            margin-left: 10%;
+            margin-right: 10%;
+            padding: 2%;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        .form-control{
+            justify-content: space-around;
+            padding: 1%;
+            margin: 2%;
+            border: solid black 2px;
+            background-color:whitesmoke;
+            color: black;
+        }
+        body{
+            background-color: rgb(103, 208, 166);
+            color: black;  
+        }
+        .btn{
+            border: solid black 2px;
+            background-color:whitesmoke;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+               <div class="col-lg-6">
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
